@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Noto+Serif+SC:wght@300&display=swap');
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  background-color: #fceceb;
+}
+
+#fiimu-title {
+  font-family: 'Black Ops One', cursive;
+  font-size: 5em;
+  position: absolute;
+  top: 1px;
+  right: 240px;
+}
+
+#navbar {
+  background-color: white;
+  box-shadow: 0px -16px 35px 3px #000000;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+
+#navbar .uk-container {
+  align-items: center;
+  display: flex;
+}
+
+#search-bar {
+  height: 25px;
+}
+
+.movie-title {
+  padding-bottom: 40px;
+}
+
+.noto-text {
+  font-family: 'Noto Serif SC', serif;
+}
