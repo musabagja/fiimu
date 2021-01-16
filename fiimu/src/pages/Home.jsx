@@ -1,7 +1,6 @@
 import React, { useState, useRef, useCallback } from 'react';
 import useMovie from '../helpers/useMovie';
-import Navbar from '../components/Navbar';
-import Card from '../components/Card';
+import { Navbar, Card, Footer } from '../components';
 
 const Home = () => {
   const [pageNumber, setPageNumber] = useState(1);
@@ -41,6 +40,7 @@ const Home = () => {
         { error ? <p>Error...</p> : '' }
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

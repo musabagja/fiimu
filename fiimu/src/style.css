@@ -17,11 +17,18 @@ body {
   right: 240px;
 }
 
+#footer {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
 #navbar {
   background-color: white;
   box-shadow: 0px -16px 35px 3px #000000;
   margin-bottom: 50px;
   padding: 30px;
+  height: 30px;
 }
 
 #navbar .uk-container {
@@ -33,10 +40,100 @@ body {
   height: 25px;
 }
 
+.button-title {
+  background-color: #ffffff;
+  font-size: large;
+  padding: 30px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 300px;
+}
+
+.company-logo {
+  margin-right: 35px;
+  margin-left: 35px;
+  flex-wrap: nowrap;
+}
+
+.column-divider {
+  display: flex;
+  flex-direction: row;
+}
+
+.details-data {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.details-genres {
+  display: flex;
+  width: 700px;
+  justify-content: space-around;
+}
+
+.details-poster-path {
+  min-width: 500px
+}
+
+.details-overview {
+  margin: 20px;
+}
+
+.details-production-company {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow: auto;
+  margin: 20px;
+  margin-top: 100px;
+  /* position: absolute; */
+}
+
+.details-content {
+  text-align: justify;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+}
+
+.loading-container div {
+  margin: 137px;
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .movie-title {
   padding-bottom: 40px;
 }
 
 .noto-text {
   font-family: 'Noto Serif SC', serif;
+}
+
+.rating-score {
+  font-size: 1.5em;
+}
+
+.similar-movies {
+  display: flex;
+  overflow: auto;
+  width: 90vw;
+}
+
+.similar-movies div {
+  margin-right: 10px;
+}
+
+.uk-container-float {
+  margin: 20px;
 }
